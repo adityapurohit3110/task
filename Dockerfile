@@ -19,4 +19,4 @@ RUN go build -o main .
 EXPOSE 8000
 
 # Command to run the executable
-CMD ["./main"]
+CMD ["./app/main"]
